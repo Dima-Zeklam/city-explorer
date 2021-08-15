@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# City Explorer
+**Author**: Dima Zeklam
+**Version**: 1.0.0 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The City Explorer project used by the user to explore the name location that he want to get information about this area and showing map for it .
 
-In the project directory, you can run:
+## Getting Started
+* Create a new repo called `city-explorer` on GitHub, initialized with no files.
+* Connect your GitHub repo to your local repo using the directions on GitHub.
+* Add a `.gitignore` file with React configurations, including ignoring of `.env`.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Architecture
+#### language:
+* JavaScript
+#### Third Party API:
+* LocationIQ
+#### library:
+* React
+* dotenv
+* Axios
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Change Log
+15-08-2021 2:00pm - creat an React app and install Axios,dotnev and bootstrab 
+15-08-2021 3:00pm - check the API key and make sure it's work, Build a form to collect a city name from the user. Give the submit button the text of "Explore!".
+15-08-2021 5:30pm - Use the data from the form to query LocationIQ for the latitude and longitude of the requested city , show the map for location.
+15-08-2021 6:30pm - Add some bootstrap and css ,Deploy to Netlyfy
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Credit and Collaborations
+-
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Name of feature 1:creat an React app and install Axios,dotnev and bootstrab
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Estimate of time needed to complete: 30 min
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Start time: 2:00
 
-### `npm run eject`
+Finish time: 2:30
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Actual time needed to complete: 1 hour
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---------------
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Name of feature 2:check the API key and make sure it's work, Build a form to collect a city name from the user. Give the submit button the text of "Explore!".
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Estimate of time needed to complete: 1.30 hour
 
-## Learn More
+Start time: 2:30
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Finish time: 4:30
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Actual time needed to complete: 2 hour
 
-### Code Splitting
+---------
+Name of feature 3 :  Add some bootstrap and css ,Deploy to Netlyfy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Estimate of time needed to complete: 1:30 hour
 
-### Analyzing the Bundle Size
+Start time: 4:30
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Finish time: 6:30
 
-### Making a Progressive Web App
+Actual time needed to complete: 2 hour
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
