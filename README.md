@@ -65,5 +65,37 @@ Start time: 4:30
 Finish time: 6:30
 
 Actual time needed to complete: 2 hour
+---------------
+
+Name of feature 4: Set up your server repository.
+
+Estimate of time needed to complete: 30 min
+
+Start time: 2:00pm
+
+Finish time: 2:30pm
+
+Actual time needed to complete: 30 min
+
+-------------------
+Name of feature 5: As a user, I want clear messages if something goes wrong so I know if I need to make any changes or try again in a different manner.
+Estimate of time needed to complete: 30 hours
+
+Start time: 2:30pm
+
+Finish time: 3:00pm
+
+Actual time needed to complete: 30 hours
+-----------------------------------
+
+Name of feature 6: As a user of City Explorer, I want to see weather info for the city I searched, so that I know how to pack for an upcoming trip.
+Estimate of time needed to complete: 4 hours
+
+Start time: 3:00pm 
+
+Finish time: 11:30 AM
+
+Actual time needed to complete: 8 hours
+
 
 
