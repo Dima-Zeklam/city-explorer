@@ -13,6 +13,8 @@ class App extends React.Component {
       cityLoc: '',
       mapData: '',
       errorHandl: false,
+      weather: {},
+      // weatherData:[],
       show: false
     };
   }
@@ -26,21 +28,26 @@ class App extends React.Component {
       await this.setState({
         cityLoc: e.target.input.value
       });
-
-      let locationUrl = `https://eu1.locationiq.com/v1/search.php?key=${process.env.REACT_APP_API_KEY}&q=${this.state.cityLoc}&format=json`;
-
+      let locationUrl = `${process.env.REACT_APP_SERVER_LINK}/weather?city=${this.state.cityLoc}`;
       let Data = await axios.get(locationUrl);
-
+      console.log(Data.data);
+      // let newArr = this.state.CityData.map((ele)=>{
+      //   return < p description ={ele.description}/>;
+      // });
       await this.setState({
-        CityData: Data.data[0],
-        show: true
+        CityData: Data.data,
+        // weatherData:newArr,
+        show: true,
       });
+
+      console.log(this.state.CityData);
     } catch (error) {
       await this.setState({
         show: false,
         errorHandl: true
       });
     }
+
     let mapUrl = `https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_API_KEY}&center=${this.state.CityData.lat},${this.state.CityData.lon}&zoom=16&size=480x480&markers=icon:large-red-cutout|${this.state.CityData.lat},${this.state.CityData.lon}&markers=icon:large-red-cutout|${this.state.CityData.lat},${this.state.CityData.lon}&path=fillcolor:%23add8e6|weight:1|color:blue|${this.state.CityData.lat},${this.state.CityData.lon}|${this.state.CityData.lat},${this.state.CityData.lon}${this.state.CityData.lat},${this.state.CityData.lon}|${this.state.CityData.lat},${this.state.CityData.lon}|${this.state.CityData.lat},${this.state.CityData.lon}`;
 
     this.setState({
@@ -77,7 +84,8 @@ class App extends React.Component {
           </Form>
           {
             this.state.show &&
-            <p style={{ size: '25px', fontWeight: 'bold', padding: '30px' }}>{this.state.cityLoc} Lat:{this.state.CityData.lat} / Lon:{this.state.CityData.lon}</p>
+            <p style={{ size: '25px', fontWeight: 'bold', padding: '30px' }}>{this.state.cityLoc} Lat:{this.state.CityData.lat} / Lon:{this.state.CityData.lon}
+            </p>
 
           }
           {this.state.show &&
@@ -86,15 +94,17 @@ class App extends React.Component {
           {
             this.state.errorHandl &&
 
-      
+
             <div class="alert alert-warning alert-dismissible fade show" role="alert">
-              <strong>Error! try to set the location name </strong>
-              <button onClick={this.close} type="button" style={{ marginLeft:'20px', fontWeight:'bold' }} data-dismiss="alert" aria-label="Close">
+              <strong>Error! try amman , paris or seattle </strong>
+              <button onClick={this.close} type="button" style={{ marginLeft: '20px', fontWeight: 'bold' }} data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
 
           }
+
+
         </div>
       </>
     );
