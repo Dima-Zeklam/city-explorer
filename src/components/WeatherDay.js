@@ -1,11 +1,11 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 
-class Weather extends React.Component{
+class WeatherDay extends React.Component {
 
-  render(){
+  render() {
     // console.log('Weather data',this.props.weatherData);
-    return(
+    return (
       <div>
         {
           this.props.weatherData.map((ele, idx) => {
@@ -26,5 +26,5 @@ class Weather extends React.Component{
 
 }
 
-export default Weather;
+export default WeatherDay;
 

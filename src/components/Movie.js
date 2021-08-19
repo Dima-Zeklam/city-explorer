@@ -29,10 +29,3 @@ class Movie extends React.Component {
 
 export default Movie;
 
-// this.title = dataItem.title;
-// this.overview = dataItem.overview;
-// this.average_votes = dataItem.vote_average;
-// this.total_votes = dataItem.vote_count;
-// this.image_url = `https://image.tmdb.org/t/p/w500${dataItem.poster_path}`;
-// this.popularity = dataItem.popularity;
-// this.released_on = dataItem.release_date;
