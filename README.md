@@ -32,7 +32,7 @@ The City Explorer project used by the user to  develop a backend server for a we
 17-8-2021 2:00pm - As a user of City Explorer, I want to see info about movies related to the city I searched, so that I can learn more about the destination.
 18-8-2021 1:30pm - Refactor: Modularize the back-end codebase.
 18-8-2021 2:00pm - Refactor: Componentize the front-end codebase.
-
+19-8-2021 3:00pm - Increase Performance: As a user, I want the application to work with recent results, so that I can see info without the app doing unnecessary API calls.
 
 
 
@@ -138,3 +138,12 @@ Finish time: 2:30 pm
 Actual time needed to complete: 1 hours
 
 ----------------------------------------
+
+ * Name of feature 10 :Performance: As a user, I want the application to work with recent results, so that I can see info without the app doing unnecessary API calls.
+Estimate of time needed to complete: 30 min
+
+Start time: 3:00 pm 
+
+Finish time: 3:30 pm
+
+Actual time needed to complete: 30 min
