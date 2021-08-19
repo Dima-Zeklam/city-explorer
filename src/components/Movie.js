@@ -7,11 +7,14 @@ class Movie extends React.Component {
     return (
       <div>
         {
+
           this.props.movieData.map((ele, idx) => {
+            if (ele.image_url === 'https://image.tmdb.org/t/p/w500null')
+              ele.image_url = 'https://img.wallpapersafari.com/desktop/1680/1050/4/78/Rd4cND.jpg';
             return (
               <Card key={idx}>
+                <Card.Img variant="top" src={ele.image_url} />
                 <Card.Body>
-                  <Card.Text> <img src={ele.image_url} /> </Card.Text>
                   <Card.Text> title:{ele.title}</Card.Text>
                   <Card.Text>overview: {ele.overview}</Card.Text>
                   <Card.Text>average_votes: {ele.average_votes}</Card.Text>
