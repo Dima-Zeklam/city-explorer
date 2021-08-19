@@ -30,6 +30,9 @@ The City Explorer project used by the user to  develop a backend server for a we
 15-08-2021 6:30pm - Add some bootstrap and css ,Deploy to Netlyfy
 16-8-2021  3:00pm - As a user of City Explorer, I want to see weather info for the city I searched, so that I know how to pack for an upcoming trip.
 17-8-2021 2:00pm - As a user of City Explorer, I want to see info about movies related to the city I searched, so that I can learn more about the destination.
+18-8-2021 1:30pm - Refactor: Modularize the back-end codebase.
+18-8-2021 2:00pm - Refactor: Componentize the front-end codebase.
+
 
 
 
@@ -68,6 +71,7 @@ Start time: 4:30
 Finish time: 6:30
 
 Actual time needed to complete: 2 hour
+
 ---------------
 
 * Name of feature 4: Set up your server repository.
@@ -81,6 +85,7 @@ Finish time: 2:30pm
 Actual time needed to complete: 30 min
 
 -------------------
+
 * Name of feature 5: As a user, I want clear messages if something goes wrong so I know if I need to make any changes or try again in a different manner.
 Estimate of time needed to complete: 30 hours
 
@@ -89,6 +94,7 @@ Start time: 2:30pm
 Finish time: 3:00pm
 
 Actual time needed to complete: 30 hours
+
 -----------------------------------
 
 * Name of feature 6: As a user of City Explorer, I want to see weather info for the city I searched, so that I know how to pack for an upcoming trip.
@@ -99,14 +105,36 @@ Start time: 3:00pm
 Finish time: 11:30 AM
 
 Actual time needed to complete: 8 hours
+
 ------------------------------------
+
 * Name of feature 7 :As a user of City Explorer, I want to see info about movies related to the city I searched, so that I can learn more about the destination.
 Estimate of time needed to complete: 4 hours
 
 Start time: 1:00pm 
 
-Finish time: 6:00 AM
+Finish time: 6:00 pm
 
 Actual time needed to complete: 5 hours
----------------------------
 
+---------------------------
+ * Name of feature 8 : Refactor: Modularize the back-end codebase.
+Estimate of time needed to complete: 1 hours
+
+Start time: 1:30pm 
+
+Finish time: 2:00 pm
+
+Actual time needed to complete: 1 hours
+
+-----------------------------
+ * Name of feature 9 : Refactor: Componentize the front-end codebase.
+ Estimate of time needed to complete: 1 hours
+
+Start time: 2:00 pm 
+
+Finish time: 2:30 pm
+
+Actual time needed to complete: 1 hours
+
+----------------------------------------
