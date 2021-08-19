@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 // import { Card } from 'react-bootstrap';
-import Weather from './Weather';
-import Movie from './Movie';
+import Weather from './components/Weather';
+import Movies from './components/Movies';
 
 class App extends React.Component {
   constructor(props) {
@@ -166,7 +166,7 @@ class App extends React.Component {
           }
           {
             this.state.show &&
-            <Movie show={this.state.show} movieData={this.state.movieData} />
+            <Movies show={this.state.show} movieData={this.state.movieData} />
 
 
 
